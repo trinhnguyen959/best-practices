@@ -6,7 +6,7 @@ var animal = {
 	skill: 'jumping',
 };
 
-('❌ A bad way ❌');
+('💩 A bad way 💩');
 
 let bio = animal.name + ' is a ' + animal.type + '  skilled in ' + animal.skill;
 console.log(bio);

@@ -1,6 +1,6 @@
 // 3. Using array with named index
 
-'❌ A bad way ❌';
+'💩 A bad way 💩';
 
 let a = [];
 a['a'] = 'valueA';

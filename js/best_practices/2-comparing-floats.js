@@ -1,6 +1,6 @@
 // 2. Comparing floats
 
-'❌ A bad way ❌';
+'💩 A bad way 💩';
 
 0.3 +
 	0.6(

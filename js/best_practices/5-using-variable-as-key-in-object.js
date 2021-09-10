@@ -1,6 +1,6 @@
 // 5. Using variable as key in objects
 
-'❌ A bad way ❌';
+'💩 A bad way 💩';
 
 n = 'Entity Name';
 

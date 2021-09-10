@@ -1,6 +1,6 @@
 // 10. Confusions about equality
 
-'❌ A bad way ❌';
+'💩 A bad way 💩';
 
 // All of these evaluate to 'true'!
 console.log(false == '0');

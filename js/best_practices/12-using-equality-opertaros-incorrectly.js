@@ -1,6 +1,6 @@
 // 12. Using Equality Operators Incorrectly
 
-'❌ A bad way ❌';
+'💩 A bad way 💩';
 
 false === 0; //false
 false == 0; //true

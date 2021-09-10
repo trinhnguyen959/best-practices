@@ -1,6 +1,6 @@
 // 4. Handling NaN
 
-'❌ A bad way ❌';
+'💩 A bad way 💩';
 
 NaN == NaN;
 

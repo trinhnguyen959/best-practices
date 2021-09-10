@@ -1,6 +1,6 @@
 // 1. Variable scope
 
-'❌ A bad way ❌';
+'💩 A bad way 💩';
 
 for (var i = 0; i < 10; i++) {
 	/* ... */

@@ -1,6 +1,6 @@
 // 15. Not using "strict mode"
 
-'❌ A bad way ❌';
+'💩 A bad way 💩';
 
 //'use strict';
 
