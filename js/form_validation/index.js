@@ -54,26 +54,26 @@ function Validator(formSelector) {
 		}
 
 		function handleValidate(e) {
-			var erorMessage;
+			var errorMessage;
 			var rules = formRules[e.target.name];
 
 			for (var rule of rules) {
-				erorMessage = rule(e.target.value);
-				if (erorMessage) break;
+				errorMessage = rule(e.target.value);
+				if (errorMessage) break;
 			}
 
-			if (erorMessage) {
+			if (errorMessage) {
 				var formGroup = e.target.closest('.form-group');
 				if (formGroup) {
 					var formMessage = formGroup.querySelector('.form-message');
 					formGroup.classList.add('invalid');
 
 					if (formMessage) {
-						formMessage.innerText = erorMessage;
+						formMessage.innerText = errorMessage;
 					}
 				}
 			}
-			return !erorMessage;
+			return !errorMessage;
 		}
 
 		function handleClearErrors(e) {
