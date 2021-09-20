@@ -154,7 +154,7 @@ function updateCourse(id) {
 
 // get
 function renderCourse(courses) {
-	var listCources = document.querySelector('#list-course');
+	var listCourses = document.querySelector('#list-course');
 	var listItem = courses.map(course => {
 		return `
             <li class="course-item-${course.id}">
@@ -165,7 +165,7 @@ function renderCourse(courses) {
             </li>
         `;
 	});
-	listCources.innerHTML = listItem.join('');
+	listCourses.innerHTML = listItem.join('');
 }
 
 // add
