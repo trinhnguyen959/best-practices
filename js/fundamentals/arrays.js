@@ -128,3 +128,14 @@ const flatMapArr = flatArray.flatMap(el => el * 2);
  * return: array cũ bị đảo ngược
  */
 friends.reverse();
+
+/** flatMap: làm phẳng array và map
+ * params 1: callbackFn có 3 args
+ * 	args 1: giá trị của element trong mảng
+ * 	args 2: index của element trong mảng -> callbackFn trả ra - optional
+ * 	args 3: array được find -> callbackFn trả ra - optional
+ * params 2: arguments được truyền vào function
+ * return: index đầu tiên của element trong mảng, ko tìm thấy là -1
+ */
+friends;
+const firstIndex = friends.findIndex(el => el === 'King');
