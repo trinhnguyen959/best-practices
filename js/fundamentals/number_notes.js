@@ -22,4 +22,5 @@ parseNumberFromPx;
 parseNumberFromOtherwise;
 parseNumberWithTrigger;
 
-
+// max
+Math.max();
