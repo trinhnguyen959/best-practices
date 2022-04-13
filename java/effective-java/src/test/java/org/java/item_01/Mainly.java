@@ -1,10 +1,10 @@
-package org.java.one;
+package org.java.item_01;
 
-import org.java.one.Point.Angle;
+import org.java.item_01.Point.Angle;
 import org.junit.jupiter.api.Test;
 
 // Consider static factory methods instead of constructors
-public class ItemOne {
+public class Mainly {
 	@Test
 	public void staticFactoryMethod() {
 /*		Point pointOne = new Point(3.0, 4.0);

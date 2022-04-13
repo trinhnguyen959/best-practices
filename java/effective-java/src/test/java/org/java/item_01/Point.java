@@ -1,4 +1,4 @@
-package org.java.one;
+package org.java.item_01;
 
 // khong the ke thua
 public class Point {

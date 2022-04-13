@@ -1,4 +1,4 @@
-package org.java.two;
+package org.java.item_02;
 
 public record BankAccount(String name, String accountNumber,
                           String address, String email,

@@ -1,4 +1,4 @@
-package org.java.two;
+package org.java.item_02;
 
 public class BankAccountBuilder {
 	private final String name;
