@@ -1,7 +1,6 @@
-package org.java;
+package org.java.one;
 
-import org.java.classes.Point;
-import org.java.classes.Point.Angle;
+import org.java.one.Point.Angle;
 import org.junit.jupiter.api.Test;
 
 // Consider static factory methods instead of constructors
