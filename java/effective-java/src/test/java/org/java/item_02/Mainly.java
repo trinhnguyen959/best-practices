@@ -6,10 +6,12 @@ import org.junit.jupiter.api.Test;
 public class Mainly {
 	@Test
 	public void builderConstructor() {
-		BankAccount account = new BankAccountBuilder("Trinh Nguyen", "0827127127127")
-				.withAddress("Namek")
+		BankAccount account = new BankAccount.Builder()
+				.withName("Trinh Nguyen")
+				.withAccountNumber("09281823471719")
+				.withAddress("Earth")
 				.withEmail("trinhnguyen959@gmail.com")
-				.isReceivedNews(true)
+				.isNewsLetter(true)
 				.isMobileBanking(true)
 				.build();
 		System.out.println("account = " + account);
