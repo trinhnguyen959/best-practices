@@ -1,10 +1,15 @@
-let numbers = [1, 2, 3];
+let numbers = [1, 2, 3, 4, 5];
+
+// shallow copy ->
+// 1: clone with slice
+let cloneWithSlice = numbers.slice(); // = slice(0)
+cloneWithSlice.push(6);
 console.log('origin array:', numbers);
+console.log('clone array with slice:', cloneWithSlice);
 
-// clone with slice
-const arrayClone = input => input.slice(0);
-let cloneNumbers = arrayClone(numbers);
-console.log('clone array with slice:', cloneNumbers);
+console.log('\n');
 
-// compare
-console.log('is clone with slice the same object:', cloneNumbers === numbers);
+// 2: clone with map
+let cloneWithMap = numbers.map(number => number);
+cloneWithMap.push(6);
+console.log('clone array with map:', cloneWithMap);
